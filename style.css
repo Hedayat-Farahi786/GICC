@@ -1,0 +1,92 @@
+/* Required height of parents of the Full Page Intro and Intro itself */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.logo {
+  margin: 0 !important;
+}
+.timer-box {
+  background: rgba(10, 10, 10, 0.9);
+  color: #fff;
+  border-radius: 0.4em;
+  font-family: "Barlow", sans-serif;
+  align-content: center;
+}
+
+.timer-box-num {
+  font-size: 30pt;
+  text-align: center;
+}
+
+.timer-box-text {
+  font-size: 10pt;
+  text-align: center;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.content {
+  font-family: "Barlow", sans-serif;
+}
+
+span.h4 {
+  font-family: "Barlow", sans-serif;
+}
+
+i {
+  color: black;
+}
+
+a > i.social-icon:hover {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
+}
+.phone_icon {
+  transform: rotate(90deg);
+  color: white;
+  margin-right: 15px;
+}
+
+.phone_btn {
+  color: white !important;
+  font-size: 1.2rem;
+  background-color: #be8f47;
+  border: #a17430;
+}
+.phone_btn:hover {
+  background-color: #a17430;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+#notifs-forn-input,
+#notifs-form-input:focus {
+  border: solid 2px #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .top {
+    margin-top: 6rem !important;
+  }
+}
