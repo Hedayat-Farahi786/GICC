@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+iframe {
+  border-radius: 20px;
+}
 body {
   background: url("../img/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -19,23 +22,6 @@ a {
 }
 .logo {
   margin: 0 !important;
-}
-.timer-box {
-  background: rgba(10, 10, 10, 0.9);
-  color: #fff;
-  border-radius: 0.4em;
-  font-family: "Barlow", sans-serif;
-  align-content: center;
-}
-
-.timer-box-num {
-  font-size: 30pt;
-  text-align: center;
-}
-
-.timer-box-text {
-  font-size: 10pt;
-  text-align: center;
 }
 
 .title {
