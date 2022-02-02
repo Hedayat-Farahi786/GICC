@@ -22,6 +22,9 @@
   margin-right: 15px;
   font-size: 22px;
 }
+iframe {
+  border-radius: 10px;
+}
 body {
   background: url("../img/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
