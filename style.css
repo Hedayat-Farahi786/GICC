@@ -18,6 +18,10 @@
   width: 100% !important;
   height: 100% !important;
 }
+.map_icon {
+  margin-right: 15px;
+  font-size: 22px;
+}
 body {
   background: url("../img/background.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -48,13 +52,6 @@ span.h4 {
   font-family: "Barlow", sans-serif;
 }
 
-i {
-  color: black;
-}
-
-a > i.social-icon:hover {
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.35);
-}
 .phone_icon {
   transform: rotate(90deg);
   color: white;
