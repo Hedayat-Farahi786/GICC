@@ -83,8 +83,12 @@ input:-webkit-autofill:active {
   border: solid 2px #ccc;
 }
 
+.top {
+  margin-top: 6rem;
+}
+
 @media screen and (max-width: 768px) {
   .top {
-    margin-top: 6rem !important;
+    margin-top: 3rem !important;
   }
 }
